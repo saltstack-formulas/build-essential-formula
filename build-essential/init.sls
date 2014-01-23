@@ -1,4 +1,4 @@
-{% from "build-essential/map.jinja" import build-essential with context %}
+{% from "build-essential/map.jinja" import build_essential with context %}
 
 build-essential:
   pkg:

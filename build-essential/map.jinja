@@ -1,4 +1,4 @@
-{% set build-essential = salt['grains.filter_by']({
+{% set build_essential = salt['grains.filter_by']({
     'Debian': {
         'pkg': 'build-essential',
     }
