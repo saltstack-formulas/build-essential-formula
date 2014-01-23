@@ -1,0 +1,5 @@
+{% set build-essentials = salt['grains.filter_by']({
+    'Debian': {
+        'pkg': 'build-essential',
+    }
+}, merge=salt['pillar.get']('build-essentials:lookup')) %}
