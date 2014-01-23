@@ -1,5 +1,6 @@
-{% if grains.os_family == 'Debian' %}
+{% from "build-essential/map.jinja" import build_essential with context %}
+
 build-essential:
   pkg:
     - installed
-{% endif %}
+    - name: {{ build_essential.pkg }}
