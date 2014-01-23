@@ -3,4 +3,4 @@
 build-essential:
   pkg:
     - installed
-    - name: {{ build-essential.pkg }}
+    - name: {{ build_essential.pkg }}
