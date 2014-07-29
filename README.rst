@@ -19,3 +19,9 @@ Available states
 -------------------
 
 Installs the build-essential package.
+
+``build-essential.absent``
+-------------------
+
+Removes the build-essential package.
+
